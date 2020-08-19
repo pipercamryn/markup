@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: helvetica;
+  margin: 0;
+  font-size: 50px
+}
+
+img {
+  width: 100%;
+}
+
+.im-body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 12px solid lime;
+
+}
+
+.im-title-container {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 22.5px;
+}
+
+.im-title {
+  width: 33.33%;
+  float: left;
+}
+
+.im-title--left h1 {
+  text-align: left;
+}
+
+.im-title--centre h1 {
+  text-align: center;
+}
+
+.im-title--right h1 {
+  text-align: right;
+}
+
+.im-image-container {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.im-image {
+  width: 100%;
+}
